@@ -36,14 +36,14 @@ const Navbar = async () => {
               className="fa fa-phone text-sm text-white ms-auto"
               aria-hidden="true"
             ></i>
-            <span className="text-sm text-white ms-2">+1 3232 4343</span>
+            <span className="text-sm text-white ms-2">+212 648 254 183</span>
 
             <i
               className="fa fa-envelope text-sm text-white ms-4"
               aria-hidden="true"
             ></i>
             <span className="text-sm text-white ms-2 me-lg-0 me-auto">
-              loopple@loopple.com
+              abdrahim.khalidi@gmail.com
             </span>
           </div>
         </div>

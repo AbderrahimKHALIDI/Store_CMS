@@ -30,9 +30,7 @@ const ProductList: React.FC<ProductListProps> = ({
  <ProductCard key={item.id} data={item} />
                 ))}
               
-                <div className="col-12 mt-5 text-center">
-                    <a href="javascript" className="btn bg-gradient-dark">View All</a>
-                </div>
+               
             </div>
         </div>
     </section>

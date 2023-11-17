@@ -3,6 +3,18 @@ import 'font-awesome/css/font-awesome.min.css';
 const Footer = () => {
   return (
     <>
+      <section className="mt-6 py-5 bg-gradient-dark position-relative" style={{backgroundImage:`url(https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80); background-size: cover; background-position: center center;`}}>
+        <span className="mask bg-gradient-dark opacity-8"></span>
+        <div className="container position-relative z-index-2">
+            <div className="row">
+                <div className="col-md-7 mx-auto text-center">
+                    <h3 className="text-white mb-3" >
+                        About Our Shop</h3>
+                    <p className="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
+                </div>
+            </div>
+        </div>
+    </section>
       <footer className="footer py-5">
         <div className="container">
           <div className="row">
@@ -165,7 +177,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-8 mx-lg-auto text-lg-center">
               <p className="text-sm text-secondary">
-                Copyright © 2023 Abderrahime Soft &amp; Loopple by Creative Tim.
+                Copyright © 2023 Abderrahim Soft &amp; Loopple by Creative Tim.
               </p>
             </div>
           </div>

@@ -21,8 +21,16 @@ const Billboard: React.FC<BillboardProps> = ({
                         <button type="submit" className="btn bg-gradient-primary mt-3 mb-0">Shop now</button>
                     </div>
                     <div className="col-lg-6">
-                        <div className="positio-absolute rounded-circle end-4 top-0 mt-n4 shadow-lg d-xl-block d-none" style={{backgroundImage:` url(${data.imageUrl});width: 600px;height: 600px; background-position: center;background-size: cover;`}}>
-                        </div>
+                    <div
+  className="positio-absolute rounded-circle end-4 top-0 mt-n4 shadow-lg d-xl-block d-none"
+  style={{
+    backgroundImage: `url(${data.imageUrl})`,
+    width: '600px',
+    height: '600px',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover'
+  }}
+></div>
                     </div>
 
                 </div>

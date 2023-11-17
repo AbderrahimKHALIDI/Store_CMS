@@ -16,8 +16,8 @@ const Gallery:React.FC<GalleryProps> = ({
 }) => {
     return (  
 <Tab.Group as='div' className="flex flex-col-reverse">
-<div className="mx-auto mt-6 hidden w-full maw-w-2xl sm:block lg:max-w-none">
-<Tab.List className="grid grid-cols-4 gap-6">
+<div className="mx-auto mt-3 hidden w-full maw-w-2xl sm:block lg:max-w-none">
+<Tab.List className="grid grid-cols-4 gap-3">
 {images.map((image)=>(
     <GalleryTab key={image.id} image={image}/>
 ))}
@@ -28,8 +28,8 @@ const Gallery:React.FC<GalleryProps> = ({
 <Tab.Panel key={image.id}>
 <div className="aspect-square relative h-full w-full sm:rounded-lg overflow-hidden">
 <Image
-width={500} 
-height={500}
+width={300} 
+height={300}
 src={image.url}
 alt="Image"
 className="object-cover object-center"

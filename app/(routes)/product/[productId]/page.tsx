@@ -39,7 +39,7 @@ const ProductPage: React.FC<ProductPageProps> = async ({ params }) => {
             <ProductList title="Related Items" items={suggestProducts} />
           </div>
         </Container>
-        Individual Product
+        
         </div>
       );
     } catch (error) {
